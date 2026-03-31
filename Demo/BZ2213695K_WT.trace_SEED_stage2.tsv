@@ -1,0 +1,63 @@
+Chrom	Start	End	CN	Stage2Status	FailStage	FailReason	FailDetails
+chr1	16855773	17275678	4.028631924951164	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chr1	120545300	120637163	4.568719911972456	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chr1	144582255	145387074	4.014359998362711	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chr1	155204449	155239449	4.040041184501092	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.80 (AdjCN < Gain)
+chr1	161409236	161439236	8.324940725084582	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.42 (AdjCN < Gain); Rep=4.00
+chr1	206557223	206582225	4.254471711662488	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.48 (AdjCN < Gain)
+chr1	228742570	228782569	4.045926187222098	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.52 (AdjCN < Gain); Rep=4.73
+chr3	75985103	76000103	4.4352640598016535	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.50 (AdjCN < Gain)
+chr4	9214452	9374645	4.671124830377315	FILTERED	Amplified	Repetitive/SegDup	Rep=4.82
+chr5	17515656	17600657	13.326259617898181	FILTERED	Amplified	Repetitive/SegDup	Rep=4.74
+chr6	294990	384987	4.826977158858732	IN_SEED_CLUSTER	Final	-	Included in seed chr6
+chr6	161031551	161066555	7.561225075793505	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.51 (AdjCN < Gain); Rep=4.55
+chr8	58115820	58130821	9.474566922796399	FILTERED	Amplified	Small Cluster	Size=15001 < 50000
+chr8	86556450	86841452	19.30750714293635	FILTERED	Amplified	Repetitive/SegDup	Rep=4.90
+chr9	45350203	45390231	4.605953990736178	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.79 (AdjCN < Gain)
+chr9	68348660	68749067	4.978116523197888	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chr9	69699558	69714607	35.45236581980663	FILTERED	Amplified	Small Cluster	Size=15049 < 50000
+chr9	69799875	69840003	5.551701499290392	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chr10	46948054	47148520	4.520179298318859	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.85 (AdjCN < Gain)
+chr12	60000	185735	5.872968907574405	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.32 (AdjCN < Gain)
+chr15	21900097	21940358	4.259399351491029	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.41 (AdjCN < Gain)
+chr15	84854483	84874482	4.483421071502265	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.33 (AdjCN < Gain)
+chr15	102481387	102521393	5.610930333064967	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.17 (AdjCN < Gain)
+chr16	33038102	33068104	6.62963755607939	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.40 (AdjCN < Gain)
+chr16	33323116	33428122	4.23032938530806	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.62 (AdjCN < Gain)
+chr17	21191608	21222002	4.10695744886408	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chr17	21301608	21356609	5.067871695881813	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.59 (AdjCN < Gain)
+chr18	44544530	44559530	7.427671441743893	FILTERED	Amplified	Small Cluster	Size=15000 < 50000
+chr21	10406250	10471697	4.606816074489103	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.39 (AdjCN < Gain)
+chr21	10532107	10602588	4.372535205307143	FILTERED	Amplified	Repetitive/SegDup	SegDupUniq=0.25 (AdjCN < Gain)
+chr21	10602587	10900001	5.472461880243262	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	13533630	14108622	4.2657812916195414	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	14108621	14833610	4.636898027549983	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	14833609	16093590	4.1832377662502145	IN_SEED_CLUSTER	Final	-	Included in seed chrX
+chrX	16093589	16558583	4.528803676632053	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	17013575	17478568	4.382973633138579	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	17478567	18178557	4.866147327568815	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	20288523	21833499	4.56542763163436	FILTERED	Amplified	Conserved Split/Trim	Remnant too small
+chrX	22188492	23683470	4.354207014457367	FILTERED	Amplified	Conserved Split/Trim	Remnant too small
+chrX	40223190	40408187	4.416519863212178	IN_SEED_CLUSTER	Final	-	Included in seed chrX
+chrX	41663159	41813157	4.0427584307344295	IN_SEED_CLUSTER	Final	-	Included in seed chrX
+chrX	41813156	42793136	4.570588703316102	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	42793135	43573119	4.294767403982724	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	43573118	43978110	4.559703454094884	IN_SEED_CLUSTER	Final	-	Included in seed chrX
+chrX	43978109	44133107	4.12010184528876	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	44928089	45008088	4.002412879644341	IN_SEED_CLUSTER	Final	-	Included in seed chrX
+chrX	45008087	45583076	4.588746153527393	IN_SEED_CLUSTER	Final	-	Included in seed chrX
+chrX	45583075	46158064	4.203875663893047	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	47421918	47923026	4.095160511500551	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	49098000	49216849	4.612439538702604	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	49222155	49366445	5.919478165618636	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	49366483	50259346	4.4552920335640565	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	50259345	50454489	5.233840647725408	IN_SEED_CLUSTER	Final	-	Included in seed chrX
+chrX	50454488	51495253	4.575882478069054	FILTERED	Amplified	Conserved Split/Trim	Remnant too small
+chrX	51580315	52105701	4.633139110194159	IN_SEED_CLUSTER	Final	-	Included in seed chrX
+chrX	52565935	52730966	4.348928530472717	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	52865989	53036020	4.590654956299433	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	54701317	55446451	4.638601788465447	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	55446450	55936539	5.411242890611081	FILTERED	Amplified	Conserved Region Overlap	Significant Overlap
+chrX	55936538	56791692	4.6005616488999586	IN_SEED_CLUSTER	Final	-	Included in seed chrX
+chrX	56791691	56806695	13.011902390828308	IN_SEED_CLUSTER	Final	-	Included in seed chrX
+chrX	56806694	58100001	4.721482751806846	FILTERED	Amplified	Conserved Split/Trim	Remnant too small
