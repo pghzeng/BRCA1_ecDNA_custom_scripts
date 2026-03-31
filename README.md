@@ -5,6 +5,7 @@ trace_ampliconsuite_cnv_to_seeds.py: This script filters CNVkit results to gener
 
 ## Requirements:
 AmpliconSuite-pipeline (https://github.com/AmpliconSuite/AmpliconSuite-pipeline) version 1.5.0
+
 Python 3.10.18
 
 ## Installation:
