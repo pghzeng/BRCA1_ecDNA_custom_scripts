@@ -1,13 +1,13 @@
 # BRCA1_ecDNA_custom_scripts
 Custom scripts used in BRCA1_ecDNA project
 
-## script for filtering cnvkit results to generate AA seeds
-trace_ampliconsuite_cnv_to_seeds.py
+## Script for filtering cnvkit results to generate AA seeds
+### trace_ampliconsuite_cnv_to_seeds.py
 
 This script filters CNVkit results to generate AmpliconArchitect (AA) seeds and reports the specific filtering reason for each discarded CNV record. It provides the flexibility to bypass the standard arm-median-based threshold and BAM coverage-ratio check originally implemented in the AmpliconSuite-pipeline.
 
 ### Requirements:
-AmpliconSuite-pipeline (https://github.com/AmpliconSuite/AmpliconSuite-pipeline) version 1.5.0
+AmpliconSuite-pipeline (https://github.com/AmpliconSuite/AmpliconSuite-pipeline) 1.5.0
 
 Python 3.10.18
 
@@ -31,3 +31,32 @@ By default, this scirpts using --bam to do coverage check as the same as Amplico
 
 The results containing _AA_CNV_SEEDS.bed file which could be used as the input of --cnv_bed in AmpliconSuite-pipeline, and 2 other files .trace_SEED_stage1.tsv / .trace_SEED_stage2.tsv containing reasons of filtering.
 
+## Scripts for processing 4C data, from raw sequencing data to RPM of interactions between viewpoints (VP) and target regions
+### 1_Fastp_BWA.sh
+### 2_Add_Tags.sh
+### 3_Pairtools_Process.sh
+### analyze_4c_interactions.py
+
+### Requirements:
+bwa 0.7.19-r1273
+
+fastp 1.0.1
+
+samtools 1.22.1
+
+pairtools 1.1.3
+
+### Installation:
+No installation needed.
+
+### Example Usage:
+```
+bash 1_Fastp_BWA.sh -r raw_fastq_dir -c clean_fastq_output_dir -b bam_files_output_dir
+bash 2_Add_Tags.sh -i bam_files_output_dir -o bam_files_tagged_output_dir
+bash 3_Pairtools_Process.sh -i bam_files_tagged_output_dir -o pairs_output_dir
+python3 analyze_4c_interactions.py \
+    --vp VP.bed \
+    --target targets.slop500.bed \
+    --config samples.config \
+    --output Interaction_Matrix.txt
+```
