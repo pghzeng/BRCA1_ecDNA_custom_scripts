@@ -12,9 +12,15 @@ Python 3.10.18
 No installation needed.
 
 ## Example Usage:
+Run with bam coverage check:
+```
 python3 trace_ampliconsuite_cnv_to_seeds.py --cns BZ2213695K_WT.cs.rmdup.cns --ref hg19 --aa_data_repo /path/to/AA_data_repo --gain 4.0 --cnsize_min 50000 -s BZ2213695K_WT --outdir ./BZ2213695K_WT BZ2213695K_WT --bam BZ2213695K_WT.cs.rmdup.bam 1> stdout.txt 2> stderr.log
+```
 
+Run without bam coverage check and disable extra chromosome-arm-cnv based threshold:
+```
 python3 trace_ampliconsuite_cnv_to_seeds.py --cns BZ2213695K_WT.cs.rmdup.cns --ref hg19 --aa_data_repo /path/to/AA_data_repo --gain 4.0 --cnsize_min 50000 -s BZ2213695K_WT --outdir ./BZ2213695K_WT --disable_stage1_med_ccg_thresh --disable_stage2_bam_coverage_check 1> stdout.txt 2> stderr.log
+```
 
 The .cns and .bam files are generated in AmpliconSuite pipeline by default.
 
