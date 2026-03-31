@@ -2,7 +2,9 @@
 Custom scripts used in BRCA1_ecDNA project
 
 ## Script for filtering cnvkit results to generate AA seeds
-### trace_ampliconsuite_cnv_to_seeds.py
+```
+trace_ampliconsuite_cnv_to_seeds.py
+```
 
 This script filters CNVkit results to generate AmpliconArchitect (AA) seeds and reports the specific filtering reason for each discarded CNV record. It provides the flexibility to bypass the standard arm-median-based threshold and BAM coverage-ratio check originally implemented in the AmpliconSuite-pipeline.
 
@@ -32,10 +34,12 @@ By default, this scirpts using --bam to do coverage check as the same as Amplico
 The results containing _AA_CNV_SEEDS.bed file which could be used as the input of --cnv_bed in AmpliconSuite-pipeline, and 2 other files .trace_SEED_stage1.tsv / .trace_SEED_stage2.tsv containing reasons of filtering.
 
 ## Scripts for processing 4C data, from raw sequencing data to RPM of interactions between viewpoints (VP) and target regions
-### 1_Fastp_BWA.sh
-### 2_Add_Tags.sh
-### 3_Pairtools_Process.sh
-### analyze_4c_interactions.py
+```
+1_Fastp_BWA.sh
+2_Add_Tags.sh
+3_Pairtools_Process.sh
+analyze_4c_interactions.py
+```
 
 ### Requirements:
 bwa 0.7.19-r1273
